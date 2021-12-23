@@ -26,9 +26,11 @@ canvas.width = window.innerWidth;
 
 // שאלה 11
 // for (var i = 0; i < 10; i++) {
-//     const radios = Math.random()*100;
-//     const x = Math.random()*context.canvas.width;
-//     const y = Math.random()*context.canvas.height;
+//     const radios = 10;
+//     const x = Math.random()*context.canvas.width - radios;
+//     const y = Math.random()*context.canvas.height - radios;
+//     if(x < radios) x = radios;
+//     if(y < radios) y = radios;
 //     context.beginPath();
 //     context.fillStyle = "red";
 //     context.arc(x,y,radios,0,2*Math.PI);
